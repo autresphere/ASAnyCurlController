@@ -30,43 +30,43 @@
     self.contentView = [[UIView alloc] initWithFrame:self.view.bounds];
     [self.transformedView addSubview:self.contentView];
     
-    if(hasOptions(options, ASCurlTransitionOptionHorizontal | ASCurlTransitionOptionRight | ASCurlTransitionOptionTop))
+    if(hasOptions(options, ASCurlTransitionOptionHorizontal | ASCurlTransitionOptionTopRight))
     {
         angle = -M_PI_2;
         scaleY = 1;
     }
-    else if(hasOptions(options, ASCurlTransitionOptionVertical | ASCurlTransitionOptionRight | ASCurlTransitionOptionTop))
+    else if(hasOptions(options, ASCurlTransitionOptionVertical | ASCurlTransitionOptionTopRight))
     {
         angle = 0;
         scaleY = -1;
     }
-    else if(hasOptions(options, ASCurlTransitionOptionVertical | ASCurlTransitionOptionBottom | ASCurlTransitionOptionRight))
+    else if(hasOptions(options, ASCurlTransitionOptionVertical | ASCurlTransitionOptionBottomRight))
     {
         angle = 0;
         scaleY = 1;
     }
-    else if(hasOptions(options, ASCurlTransitionOptionHorizontal | ASCurlTransitionOptionBottom | ASCurlTransitionOptionRight))
+    else if(hasOptions(options, ASCurlTransitionOptionHorizontal | ASCurlTransitionOptionBottomRight))
     {
         angle = M_PI_2;
         scaleY = -1;
     }
-    else if(hasOptions(options, ASCurlTransitionOptionHorizontal | ASCurlTransitionOptionTop | ASCurlTransitionOptionLeft))
+    else if(hasOptions(options, ASCurlTransitionOptionHorizontal | ASCurlTransitionOptionTopLeft))
     {
         angle = -M_PI_2;
         scaleY = -1;
     }
-    else if(hasOptions(options, ASCurlTransitionOptionHorizontal | ASCurlTransitionOptionBottom | ASCurlTransitionOptionLeft))
+    else if(hasOptions(options, ASCurlTransitionOptionHorizontal | ASCurlTransitionOptionBottomLeft))
     {
         angle = M_PI_2;
         scaleY = 1;
     }
-    else if(hasOptions(options, ASCurlTransitionOptionVertical | ASCurlTransitionOptionTop | ASCurlTransitionOptionLeft))
+    else if(hasOptions(options, ASCurlTransitionOptionVertical | ASCurlTransitionOptionTopLeft))
     {
         angle = 0;
         scaleY = -1;
         scaleX = -1;
     }
-    else if(hasOptions(options, ASCurlTransitionOptionVertical | ASCurlTransitionOptionBottom | ASCurlTransitionOptionLeft))
+    else if(hasOptions(options, ASCurlTransitionOptionVertical | ASCurlTransitionOptionBottomLeft))
     {
         angle = 0;
         scaleY = 1;

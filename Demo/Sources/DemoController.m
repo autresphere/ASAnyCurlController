@@ -28,35 +28,35 @@ static NSInteger pageNumber = 1;
     controller.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     if(sender.tag == 0)
     {
-        options = ASCurlTransitionOptionTop | ASCurlTransitionOptionRight | ASCurlTransitionOptionHorizontal;
+        options = ASCurlTransitionOptionTopRight | ASCurlTransitionOptionHorizontal;
     }
     else if(sender.tag == 1)
     {
-        options = ASCurlTransitionOptionTop | ASCurlTransitionOptionRight | ASCurlTransitionOptionVertical;
+        options = ASCurlTransitionOptionTopRight | ASCurlTransitionOptionVertical;
     }
     else if(sender.tag == 2)
     {
-        options = ASCurlTransitionOptionBottom | ASCurlTransitionOptionRight | ASCurlTransitionOptionVertical;
+        options = ASCurlTransitionOptionBottomRight | ASCurlTransitionOptionVertical;
     }
     else if(sender.tag == 3)
     {
-        options = ASCurlTransitionOptionBottom | ASCurlTransitionOptionRight | ASCurlTransitionOptionHorizontal;
+        options = ASCurlTransitionOptionBottomRight | ASCurlTransitionOptionHorizontal;
     }
     else if(sender.tag == 4)
     {
-        options = ASCurlTransitionOptionBottom | ASCurlTransitionOptionLeft | ASCurlTransitionOptionHorizontal;
+        options = ASCurlTransitionOptionBottomLeft | ASCurlTransitionOptionHorizontal;
     }
     else if(sender.tag == 5)
     {
-        options = ASCurlTransitionOptionBottom | ASCurlTransitionOptionLeft | ASCurlTransitionOptionVertical;
+        options = ASCurlTransitionOptionBottomLeft | ASCurlTransitionOptionVertical;
     }
     else if(sender.tag == 6)
     {
-        options = ASCurlTransitionOptionTop | ASCurlTransitionOptionLeft | ASCurlTransitionOptionHorizontal;
+        options = ASCurlTransitionOptionTopLeft | ASCurlTransitionOptionHorizontal;
     }
     else if(sender.tag == 7)
     {
-        options = ASCurlTransitionOptionTop | ASCurlTransitionOptionLeft | ASCurlTransitionOptionVertical;
+        options = ASCurlTransitionOptionTopLeft | ASCurlTransitionOptionVertical;
     }
     
     if(self.directionControl.selectedSegmentIndex == 0)

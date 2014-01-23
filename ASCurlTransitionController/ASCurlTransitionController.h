@@ -11,11 +11,10 @@ typedef NS_OPTIONS(NSUInteger, ASCurlTransitionOptions) {
     ASCurlTransitionOptionHorizontal   = 2 <<  0,
     ASCurlTransitionOptionVertical     = 1 <<  0,
     
-    ASCurlTransitionOptionTop      = 2 <<  4,
-    ASCurlTransitionOptionBottom   = 1 <<  4,
-    
-    ASCurlTransitionOptionLeft     = 2 <<  8,
-    ASCurlTransitionOptionRight    = 1 <<  8,
+    ASCurlTransitionOptionTopLeft      = 2 <<  4,
+    ASCurlTransitionOptionTopRight     = 3 <<  4,
+    ASCurlTransitionOptionBottomLeft   = 4 <<  4,
+    ASCurlTransitionOptionBottomRight  = 5 <<  4,
 };
 
 @interface ASCurlTransitionController : UIViewController
