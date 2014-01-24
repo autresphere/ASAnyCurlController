@@ -2,6 +2,9 @@
 ASCurlTransitionController gives you the ability to use Curl animation from any corner and in any direction.
 iOS SDK allows only 2 types of curl animations, UIViewAnimationOptionTransitionCurlUp (a transition that curls a view up from the bottom) and UIViewAnimationOptionTransitionCurlDown (a transition that curls a view down from the top). With ASCurlTransitionController you can choose wheter your curl transition comes from the **top**, **bottom**, **left** and **right** and whether it is **horizontal** or **vertical**.
 
+![](https://github.com/autresphere/ASCurlTransitionController/raw/master/Screenshots/iPhoneVideo.gif)
+
+
 ## Supported iOS
 iOS 5 and above.
 
