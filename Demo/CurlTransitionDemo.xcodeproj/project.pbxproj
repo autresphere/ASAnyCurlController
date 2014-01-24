@@ -15,6 +15,7 @@
 		4A5EB5901891767200EDBE33 /* arrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5EB58C1891767200EDBE33 /* arrowLeft@2x.png */; };
 		4A5EB5911891767200EDBE33 /* arrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5EB58D1891767200EDBE33 /* arrowRight@2x.png */; };
 		4A5EB5921891767200EDBE33 /* arrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5EB58E1891767200EDBE33 /* arrowUp@2x.png */; };
+		4A5EB59E1892D93E00EDBE33 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A5EB59D1892D93E00EDBE33 /* Readme.md */; };
 		4A880BB618910FAF0052FC98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A880BB518910FAF0052FC98 /* Foundation.framework */; };
 		4A880BB818910FAF0052FC98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A880BB718910FAF0052FC98 /* CoreGraphics.framework */; };
 		4A880BBA18910FAF0052FC98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A880BB918910FAF0052FC98 /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 		4A5EB58C1891767200EDBE33 /* arrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowLeft@2x.png"; sourceTree = "<group>"; };
 		4A5EB58D1891767200EDBE33 /* arrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowRight@2x.png"; sourceTree = "<group>"; };
 		4A5EB58E1891767200EDBE33 /* arrowUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowUp@2x.png"; sourceTree = "<group>"; };
+		4A5EB59D1892D93E00EDBE33 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Readme.md; path = ../../Readme.md; sourceTree = "<group>"; };
 		4A880BB218910FAF0052FC98 /* CurlTransitionControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurlTransitionControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A880BB518910FAF0052FC98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4A880BB718910FAF0052FC98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,6 +125,7 @@
 				4A880BCE18910FAF0052FC98 /* DemoController.m */,
 				4AF81A901891126500F20661 /* ASCurlTransitionController.h */,
 				4AF81A911891126500F20661 /* ASCurlTransitionController.m */,
+				4A5EB59D1892D93E00EDBE33 /* Readme.md */,
 				4A880BD018910FAF0052FC98 /* Images.xcassets */,
 				4A880BBC18910FAF0052FC98 /* Supporting Files */,
 			);
@@ -169,7 +172,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = AutreSphere;
 			};
-			buildConfigurationList = 4A880BAD18910FAF0052FC98 /* Build configuration list for PBXProject "CurlTransitionControllerDemo" */;
+			buildConfigurationList = 4A880BAD18910FAF0052FC98 /* Build configuration list for PBXProject "CurlTransitionDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -194,6 +197,7 @@
 			files = (
 				4A5EB58F1891767200EDBE33 /* arrowDown@2x.png in Resources */,
 				4A5EB5891891758100EDBE33 /* arrowRight.png in Resources */,
+				4A5EB59E1892D93E00EDBE33 /* Readme.md in Resources */,
 				4A880BD118910FAF0052FC98 /* Images.xcassets in Resources */,
 				4A5EB5881891758100EDBE33 /* arrowLeft.png in Resources */,
 				4A880BC918910FAF0052FC98 /* Main.storyboard in Resources */,
@@ -345,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A880BAD18910FAF0052FC98 /* Build configuration list for PBXProject "CurlTransitionControllerDemo" */ = {
+		4A880BAD18910FAF0052FC98 /* Build configuration list for PBXProject "CurlTransitionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A880BE518910FAF0052FC98 /* Debug */,
