@@ -19,12 +19,12 @@
 		4A880BB618910FAF0052FC98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A880BB518910FAF0052FC98 /* Foundation.framework */; };
 		4A880BB818910FAF0052FC98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A880BB718910FAF0052FC98 /* CoreGraphics.framework */; };
 		4A880BBA18910FAF0052FC98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A880BB918910FAF0052FC98 /* UIKit.framework */; };
-		4A880BC018910FAF0052FC98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A880BBE18910FAF0052FC98 /* InfoPlist.strings */; };
 		4A880BC218910FAF0052FC98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A880BC118910FAF0052FC98 /* main.m */; };
 		4A880BC618910FAF0052FC98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A880BC518910FAF0052FC98 /* AppDelegate.m */; };
-		4A880BC918910FAF0052FC98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A880BC718910FAF0052FC98 /* Main.storyboard */; };
 		4A880BCF18910FAF0052FC98 /* DemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A880BCE18910FAF0052FC98 /* DemoController.m */; };
 		4A880BD118910FAF0052FC98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A880BD018910FAF0052FC98 /* Images.xcassets */; };
+		4A91FCFC189AA27B0021758E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A91FCFB189AA27B0021758E /* InfoPlist.strings */; };
+		4A91FCFE189AA2890021758E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A91FCFD189AA2890021758E /* Main.storyboard */; };
 		4AF81A931891126500F20661 /* ASCurlTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF81A911891126500F20661 /* ASCurlTransitionController.m */; };
 /* End PBXBuildFile section */
 
@@ -38,21 +38,21 @@
 		4A5EB58D1891767200EDBE33 /* arrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowRight@2x.png"; sourceTree = "<group>"; };
 		4A5EB58E1891767200EDBE33 /* arrowUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowUp@2x.png"; sourceTree = "<group>"; };
 		4A5EB59D1892D93E00EDBE33 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Readme.md; path = ../../Readme.md; sourceTree = "<group>"; };
-		4A880BB218910FAF0052FC98 /* CurlTransitionControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurlTransitionControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A880BB218910FAF0052FC98 /* CurlTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurlTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A880BB518910FAF0052FC98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4A880BB718910FAF0052FC98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4A880BB918910FAF0052FC98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		4A880BBD18910FAF0052FC98 /* CurlTransitionControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurlTransitionControllerDemo-Info.plist"; sourceTree = "<group>"; };
-		4A880BBF18910FAF0052FC98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A880BBD18910FAF0052FC98 /* CurlTransitionDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurlTransitionDemo-Info.plist"; sourceTree = "<group>"; };
 		4A880BC118910FAF0052FC98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4A880BC318910FAF0052FC98 /* CurlTransitionControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CurlTransitionControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4A880BC318910FAF0052FC98 /* CurlTransitionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CurlTransitionDemo-Prefix.pch"; sourceTree = "<group>"; };
 		4A880BC418910FAF0052FC98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A880BC518910FAF0052FC98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A880BC818910FAF0052FC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A880BCD18910FAF0052FC98 /* DemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoController.h; sourceTree = "<group>"; };
 		4A880BCE18910FAF0052FC98 /* DemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoController.m; sourceTree = "<group>"; };
 		4A880BD018910FAF0052FC98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A880BD718910FAF0052FC98 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4A91FCFB189AA27B0021758E /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		4A91FCFD189AA2890021758E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4AF81A901891126500F20661 /* ASCurlTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = ASCurlTransitionController.h; path = ../../ASCurlTransitionController/ASCurlTransitionController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		4AF81A911891126500F20661 /* ASCurlTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = ASCurlTransitionController.m; path = ../../ASCurlTransitionController/ASCurlTransitionController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
@@ -99,7 +99,7 @@
 		4A880BB318910FAF0052FC98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A880BB218910FAF0052FC98 /* CurlTransitionControllerDemo.app */,
+				4A880BB218910FAF0052FC98 /* CurlTransitionDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 		4A880BBB18910FAF0052FC98 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				4A880BC718910FAF0052FC98 /* Main.storyboard */,
+				4A91FCFD189AA2890021758E /* Main.storyboard */,
 				4A880BC418910FAF0052FC98 /* AppDelegate.h */,
 				4A880BC518910FAF0052FC98 /* AppDelegate.m */,
 				4A880BCD18910FAF0052FC98 /* DemoController.h */,
@@ -135,10 +135,10 @@
 		4A880BBC18910FAF0052FC98 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A880BBD18910FAF0052FC98 /* CurlTransitionControllerDemo-Info.plist */,
-				4A880BBE18910FAF0052FC98 /* InfoPlist.strings */,
+				4A880BBD18910FAF0052FC98 /* CurlTransitionDemo-Info.plist */,
+				4A91FCFB189AA27B0021758E /* InfoPlist.strings */,
 				4A880BC118910FAF0052FC98 /* main.m */,
-				4A880BC318910FAF0052FC98 /* CurlTransitionControllerDemo-Prefix.pch */,
+				4A880BC318910FAF0052FC98 /* CurlTransitionDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A880BB118910FAF0052FC98 /* CurlTransitionControllerDemo */ = {
+		4A880BB118910FAF0052FC98 /* CurlTransitionDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A880BE718910FAF0052FC98 /* Build configuration list for PBXNativeTarget "CurlTransitionControllerDemo" */;
+			buildConfigurationList = 4A880BE718910FAF0052FC98 /* Build configuration list for PBXNativeTarget "CurlTransitionDemo" */;
 			buildPhases = (
 				4A880BAE18910FAF0052FC98 /* Sources */,
 				4A880BAF18910FAF0052FC98 /* Frameworks */,
@@ -158,9 +158,9 @@
 			);
 			dependencies = (
 			);
-			name = CurlTransitionControllerDemo;
+			name = CurlTransitionDemo;
 			productName = CurlTransitionControllerDemo;
-			productReference = 4A880BB218910FAF0052FC98 /* CurlTransitionControllerDemo.app */;
+			productReference = 4A880BB218910FAF0052FC98 /* CurlTransitionDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -185,7 +185,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A880BB118910FAF0052FC98 /* CurlTransitionControllerDemo */,
+				4A880BB118910FAF0052FC98 /* CurlTransitionDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -198,14 +198,14 @@
 				4A5EB58F1891767200EDBE33 /* arrowDown@2x.png in Resources */,
 				4A5EB5891891758100EDBE33 /* arrowRight.png in Resources */,
 				4A5EB59E1892D93E00EDBE33 /* Readme.md in Resources */,
+				4A91FCFE189AA2890021758E /* Main.storyboard in Resources */,
 				4A880BD118910FAF0052FC98 /* Images.xcassets in Resources */,
 				4A5EB5881891758100EDBE33 /* arrowLeft.png in Resources */,
-				4A880BC918910FAF0052FC98 /* Main.storyboard in Resources */,
 				4A5EB5901891767200EDBE33 /* arrowLeft@2x.png in Resources */,
-				4A880BC018910FAF0052FC98 /* InfoPlist.strings in Resources */,
 				4A5EB58A1891758100EDBE33 /* arrowUp.png in Resources */,
 				4A5EB5871891758100EDBE33 /* arrowDown.png in Resources */,
 				4A5EB5911891767200EDBE33 /* arrowRight@2x.png in Resources */,
+				4A91FCFC189AA27B0021758E /* InfoPlist.strings in Resources */,
 				4A5EB5921891767200EDBE33 /* arrowUp@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,25 +225,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4A880BBE18910FAF0052FC98 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A880BBF18910FAF0052FC98 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4A880BC718910FAF0052FC98 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A880BC818910FAF0052FC98 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4A880BE518910FAF0052FC98 /* Debug */ = {
@@ -326,8 +307,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sources/CurlTransitionControllerDemo-Prefix.pch";
-				INFOPLIST_FILE = "Sources/CurlTransitionControllerDemo-Info.plist";
+				GCC_PREFIX_HEADER = "Sources/CurlTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "Sources/CurlTransitionDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -339,8 +320,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sources/CurlTransitionControllerDemo-Prefix.pch";
-				INFOPLIST_FILE = "Sources/CurlTransitionControllerDemo-Info.plist";
+				GCC_PREFIX_HEADER = "Sources/CurlTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "Sources/CurlTransitionDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -358,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A880BE718910FAF0052FC98 /* Build configuration list for PBXNativeTarget "CurlTransitionControllerDemo" */ = {
+		4A880BE718910FAF0052FC98 /* Build configuration list for PBXNativeTarget "CurlTransitionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A880BE818910FAF0052FC98 /* Debug */,
