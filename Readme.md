@@ -22,7 +22,7 @@ ASCurlTransitionController is a UIViewController that will animate the transitio
 
 You first set its initial content controller using its property `contentController`. Then you call `[ASCurlTransitionController animateTransitionDownWithController:duration:options:completion]` or `[ASCurlTransitionController animateTransitionUpWithController:duration:options:completion]` whether you want the new view to be revealed as if it were coming from above or below the current view.
 
-`options` parameter lets you specify the corner (`ASCurlTransitionOptionTopLeft`, `ASCurlTransitionOptionTopRight`, `ASCurlTransitionOptionBottomLeft`, `ASCurlTransitionBottomRight`) and direction (`ASCurlTransitionOptionHorizontal` or `ASCurlTransitionOptionVertical`).
+`options` parameter lets you specify the corner (`ASAnyCurlOptionTopLeft`, `ASAnyCurlOptionTopRight`, `ASAnyCurlOptionBottomLeft`, `ASCurlTransitionBottomRight`) and direction (`ASAnyCurlOptionHorizontal` or `ASAnyCurlOptionVertical`).
 
 In a Curl Down transition, the specified corner is where the animation starts, while in a Curl Up transition it is where the animation ends. 
 

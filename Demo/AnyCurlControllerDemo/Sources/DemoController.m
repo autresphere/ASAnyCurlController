@@ -7,7 +7,7 @@
 //
 
 #import "DemoController.h"
-#import "ASCurlTransitionController.h"
+#import "ASAnyCurlController.h"
 
 static NSInteger pageNumber = 1;
 
@@ -19,44 +19,44 @@ static NSInteger pageNumber = 1;
 
 - (IBAction)transitionAction:(UIButton *)sender
 {
-    ASCurlTransitionController *transitionController;
+    ASAnyCurlController *transitionController;
     DemoController *controller;
-    ASCurlTransitionOptions options = 0;
+    ASAnyCurlOptions options = 0;
     
-    transitionController = (ASCurlTransitionController *)[UIApplication sharedApplication].keyWindow.rootViewController;
+    transitionController = (ASAnyCurlController *)[UIApplication sharedApplication].keyWindow.rootViewController;
     controller = [self.storyboard instantiateViewControllerWithIdentifier:@"Demo"];
     controller.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     if(sender.tag == 0)
     {
-        options = ASCurlTransitionOptionTopRight | ASCurlTransitionOptionHorizontal;
+        options = ASAnyCurlOptionTopRight | ASAnyCurlOptionHorizontal;
     }
     else if(sender.tag == 1)
     {
-        options = ASCurlTransitionOptionTopRight | ASCurlTransitionOptionVertical;
+        options = ASAnyCurlOptionTopRight | ASAnyCurlOptionVertical;
     }
     else if(sender.tag == 2)
     {
-        options = ASCurlTransitionOptionBottomRight | ASCurlTransitionOptionVertical;
+        options = ASAnyCurlOptionBottomRight | ASAnyCurlOptionVertical;
     }
     else if(sender.tag == 3)
     {
-        options = ASCurlTransitionOptionBottomRight | ASCurlTransitionOptionHorizontal;
+        options = ASAnyCurlOptionBottomRight | ASAnyCurlOptionHorizontal;
     }
     else if(sender.tag == 4)
     {
-        options = ASCurlTransitionOptionBottomLeft | ASCurlTransitionOptionHorizontal;
+        options = ASAnyCurlOptionBottomLeft | ASAnyCurlOptionHorizontal;
     }
     else if(sender.tag == 5)
     {
-        options = ASCurlTransitionOptionBottomLeft | ASCurlTransitionOptionVertical;
+        options = ASAnyCurlOptionBottomLeft | ASAnyCurlOptionVertical;
     }
     else if(sender.tag == 6)
     {
-        options = ASCurlTransitionOptionTopLeft | ASCurlTransitionOptionHorizontal;
+        options = ASAnyCurlOptionTopLeft | ASAnyCurlOptionHorizontal;
     }
     else if(sender.tag == 7)
     {
-        options = ASCurlTransitionOptionTopLeft | ASCurlTransitionOptionVertical;
+        options = ASAnyCurlOptionTopLeft | ASAnyCurlOptionVertical;
     }
     
     if(self.directionControl.selectedSegmentIndex == 0)

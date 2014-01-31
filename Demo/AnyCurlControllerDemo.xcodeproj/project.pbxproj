@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A35FADD189BA82300515C90 /* ASAnyCurlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A35FADC189BA82300515C90 /* ASAnyCurlController.m */; };
 		4A5EB5871891758100EDBE33 /* arrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5EB5831891758100EDBE33 /* arrowDown.png */; };
 		4A5EB5881891758100EDBE33 /* arrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5EB5841891758100EDBE33 /* arrowLeft.png */; };
 		4A5EB5891891758100EDBE33 /* arrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5EB5851891758100EDBE33 /* arrowRight.png */; };
@@ -15,7 +16,6 @@
 		4A5EB5901891767200EDBE33 /* arrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5EB58C1891767200EDBE33 /* arrowLeft@2x.png */; };
 		4A5EB5911891767200EDBE33 /* arrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5EB58D1891767200EDBE33 /* arrowRight@2x.png */; };
 		4A5EB5921891767200EDBE33 /* arrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5EB58E1891767200EDBE33 /* arrowUp@2x.png */; };
-		4A5EB59E1892D93E00EDBE33 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 4A5EB59D1892D93E00EDBE33 /* Readme.md */; };
 		4A880BB618910FAF0052FC98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A880BB518910FAF0052FC98 /* Foundation.framework */; };
 		4A880BB818910FAF0052FC98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A880BB718910FAF0052FC98 /* CoreGraphics.framework */; };
 		4A880BBA18910FAF0052FC98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A880BB918910FAF0052FC98 /* UIKit.framework */; };
@@ -25,10 +25,11 @@
 		4A880BD118910FAF0052FC98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A880BD018910FAF0052FC98 /* Images.xcassets */; };
 		4A91FCFC189AA27B0021758E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A91FCFB189AA27B0021758E /* InfoPlist.strings */; };
 		4A91FCFE189AA2890021758E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A91FCFD189AA2890021758E /* Main.storyboard */; };
-		4AF81A931891126500F20661 /* ASCurlTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF81A911891126500F20661 /* ASCurlTransitionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A35FADB189BA82300515C90 /* ASAnyCurlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAnyCurlController.h; sourceTree = "<group>"; };
+		4A35FADC189BA82300515C90 /* ASAnyCurlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAnyCurlController.m; sourceTree = "<group>"; };
 		4A5EB5831891758100EDBE33 /* arrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowDown.png; sourceTree = "<group>"; };
 		4A5EB5841891758100EDBE33 /* arrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowLeft.png; sourceTree = "<group>"; };
 		4A5EB5851891758100EDBE33 /* arrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowRight.png; sourceTree = "<group>"; };
@@ -37,14 +38,13 @@
 		4A5EB58C1891767200EDBE33 /* arrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowLeft@2x.png"; sourceTree = "<group>"; };
 		4A5EB58D1891767200EDBE33 /* arrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowRight@2x.png"; sourceTree = "<group>"; };
 		4A5EB58E1891767200EDBE33 /* arrowUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowUp@2x.png"; sourceTree = "<group>"; };
-		4A5EB59D1892D93E00EDBE33 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Readme.md; path = ../../Readme.md; sourceTree = "<group>"; };
-		4A880BB218910FAF0052FC98 /* CurlTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurlTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A880BB218910FAF0052FC98 /* AnyCurlControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyCurlControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A880BB518910FAF0052FC98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4A880BB718910FAF0052FC98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4A880BB918910FAF0052FC98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		4A880BBD18910FAF0052FC98 /* CurlTransitionDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurlTransitionDemo-Info.plist"; sourceTree = "<group>"; };
+		4A880BBD18910FAF0052FC98 /* AnyCurlControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnyCurlControllerDemo-Info.plist"; sourceTree = "<group>"; };
 		4A880BC118910FAF0052FC98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4A880BC318910FAF0052FC98 /* CurlTransitionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CurlTransitionDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4A880BC318910FAF0052FC98 /* AnyCurlControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnyCurlControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
 		4A880BC418910FAF0052FC98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A880BC518910FAF0052FC98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4A880BCD18910FAF0052FC98 /* DemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoController.h; sourceTree = "<group>"; };
@@ -53,8 +53,6 @@
 		4A880BD718910FAF0052FC98 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4A91FCFB189AA27B0021758E /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		4A91FCFD189AA2890021758E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		4AF81A901891126500F20661 /* ASCurlTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = ASCurlTransitionController.h; path = ../../ASCurlTransitionController/ASCurlTransitionController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		4AF81A911891126500F20661 /* ASCurlTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = ASCurlTransitionController.m; path = ../../ASCurlTransitionController/ASCurlTransitionController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +69,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A35FADA189BA82300515C90 /* ASAnyCurlController */ = {
+			isa = PBXGroup;
+			children = (
+				4A35FADB189BA82300515C90 /* ASAnyCurlController.h */,
+				4A35FADC189BA82300515C90 /* ASAnyCurlController.m */,
+			);
+			name = ASAnyCurlController;
+			path = ../../../ASAnyCurlController;
+			sourceTree = "<group>";
+		};
 		4A5EB5821891758100EDBE33 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +107,7 @@
 		4A880BB318910FAF0052FC98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A880BB218910FAF0052FC98 /* CurlTransitionDemo.app */,
+				4A880BB218910FAF0052FC98 /* AnyCurlControllerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,22 +131,21 @@
 				4A880BC518910FAF0052FC98 /* AppDelegate.m */,
 				4A880BCD18910FAF0052FC98 /* DemoController.h */,
 				4A880BCE18910FAF0052FC98 /* DemoController.m */,
-				4AF81A901891126500F20661 /* ASCurlTransitionController.h */,
-				4AF81A911891126500F20661 /* ASCurlTransitionController.m */,
-				4A5EB59D1892D93E00EDBE33 /* Readme.md */,
+				4A35FADA189BA82300515C90 /* ASAnyCurlController */,
 				4A880BD018910FAF0052FC98 /* Images.xcassets */,
 				4A880BBC18910FAF0052FC98 /* Supporting Files */,
 			);
-			path = Sources;
+			name = Sources;
+			path = AnyCurlControllerDemo/Sources;
 			sourceTree = "<group>";
 		};
 		4A880BBC18910FAF0052FC98 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A880BBD18910FAF0052FC98 /* CurlTransitionDemo-Info.plist */,
+				4A880BBD18910FAF0052FC98 /* AnyCurlControllerDemo-Info.plist */,
 				4A91FCFB189AA27B0021758E /* InfoPlist.strings */,
 				4A880BC118910FAF0052FC98 /* main.m */,
-				4A880BC318910FAF0052FC98 /* CurlTransitionDemo-Prefix.pch */,
+				4A880BC318910FAF0052FC98 /* AnyCurlControllerDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,9 +153,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A880BB118910FAF0052FC98 /* CurlTransitionDemo */ = {
+		4A880BB118910FAF0052FC98 /* AnyCurlControllerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A880BE718910FAF0052FC98 /* Build configuration list for PBXNativeTarget "CurlTransitionDemo" */;
+			buildConfigurationList = 4A880BE718910FAF0052FC98 /* Build configuration list for PBXNativeTarget "AnyCurlControllerDemo" */;
 			buildPhases = (
 				4A880BAE18910FAF0052FC98 /* Sources */,
 				4A880BAF18910FAF0052FC98 /* Frameworks */,
@@ -158,9 +165,9 @@
 			);
 			dependencies = (
 			);
-			name = CurlTransitionDemo;
+			name = AnyCurlControllerDemo;
 			productName = CurlTransitionControllerDemo;
-			productReference = 4A880BB218910FAF0052FC98 /* CurlTransitionDemo.app */;
+			productReference = 4A880BB218910FAF0052FC98 /* AnyCurlControllerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +179,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = AutreSphere;
 			};
-			buildConfigurationList = 4A880BAD18910FAF0052FC98 /* Build configuration list for PBXProject "CurlTransitionDemo" */;
+			buildConfigurationList = 4A880BAD18910FAF0052FC98 /* Build configuration list for PBXProject "AnyCurlControllerDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -185,7 +192,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A880BB118910FAF0052FC98 /* CurlTransitionDemo */,
+				4A880BB118910FAF0052FC98 /* AnyCurlControllerDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -197,7 +204,6 @@
 			files = (
 				4A5EB58F1891767200EDBE33 /* arrowDown@2x.png in Resources */,
 				4A5EB5891891758100EDBE33 /* arrowRight.png in Resources */,
-				4A5EB59E1892D93E00EDBE33 /* Readme.md in Resources */,
 				4A91FCFE189AA2890021758E /* Main.storyboard in Resources */,
 				4A880BD118910FAF0052FC98 /* Images.xcassets in Resources */,
 				4A5EB5881891758100EDBE33 /* arrowLeft.png in Resources */,
@@ -218,8 +224,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A880BCF18910FAF0052FC98 /* DemoController.m in Sources */,
-				4AF81A931891126500F20661 /* ASCurlTransitionController.m in Sources */,
 				4A880BC618910FAF0052FC98 /* AppDelegate.m in Sources */,
+				4A35FADD189BA82300515C90 /* ASAnyCurlController.m in Sources */,
 				4A880BC218910FAF0052FC98 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,9 +313,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sources/CurlTransitionDemo-Prefix.pch";
-				INFOPLIST_FILE = "Sources/CurlTransitionDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AnyCurlControllerDemo/Sources/AnyCurlControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "AnyCurlControllerDemo/Sources/AnyCurlControllerDemo-Info.plist";
+				PRODUCT_NAME = AnyCurlControllerDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -320,9 +326,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Sources/CurlTransitionDemo-Prefix.pch";
-				INFOPLIST_FILE = "Sources/CurlTransitionDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AnyCurlControllerDemo/Sources/AnyCurlControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "AnyCurlControllerDemo/Sources/AnyCurlControllerDemo-Info.plist";
+				PRODUCT_NAME = AnyCurlControllerDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -330,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A880BAD18910FAF0052FC98 /* Build configuration list for PBXProject "CurlTransitionDemo" */ = {
+		4A880BAD18910FAF0052FC98 /* Build configuration list for PBXProject "AnyCurlControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A880BE518910FAF0052FC98 /* Debug */,
@@ -339,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A880BE718910FAF0052FC98 /* Build configuration list for PBXNativeTarget "CurlTransitionDemo" */ = {
+		4A880BE718910FAF0052FC98 /* Build configuration list for PBXNativeTarget "AnyCurlControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A880BE818910FAF0052FC98 /* Debug */,

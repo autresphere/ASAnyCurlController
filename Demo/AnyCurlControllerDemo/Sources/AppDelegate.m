@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ASCurlTransitionController.h"
+#import "ASAnyCurlController.h"
 
 @implementation AppDelegate
 
@@ -37,9 +37,9 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    ASCurlTransitionController *transitionController;
+    ASAnyCurlController *transitionController;
     
-    transitionController = (ASCurlTransitionController *)application.keyWindow.rootViewController;
+    transitionController = (ASAnyCurlController *)application.keyWindow.rootViewController;
     if(transitionController.contentController == nil)
     {
         UIViewController *controller;
