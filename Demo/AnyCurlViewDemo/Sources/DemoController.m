@@ -44,6 +44,7 @@
     label.textAlignment = UITextAlignmentCenter;
     label.font = [UIFont systemFontOfSize:40];
     label.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
+    label.backgroundColor = [UIColor clearColor];
     [view addSubview:label];
     
     return view;
