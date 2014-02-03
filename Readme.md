@@ -8,6 +8,8 @@ With ASAnyCurlController you are free to choose whether your up or down curl tra
 
 ![](https://github.com/autresphere/ASAnyCurlController/raw/master/Screenshots/iPhoneVideo.gif)
 
+This transition is used on some App Store apps like [Peter & the wolf](https://itunes.apple.com/fr/app/pierre-et-le-loup/id780386365?mt=8) ![](https://github.com/autresphere/ASAnyCurlController/raw/master/Screenshots/peterCurl.jpg)
+
 
 ## Supported iOS
 iOS 5 and above.
